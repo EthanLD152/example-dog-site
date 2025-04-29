@@ -149,7 +149,7 @@ const ServicesPage = () => {
             </h2>
             <p className="text-gray-600 mb-8 max-w-2xl mx-auto">
               Contact us today to learn more about our services or schedule an appointment.
-              We're here to answer any questions you may have.
+              We&apos;re here to answer any questions you may have.
             </p>
             <div className="flex justify-center gap-4">
               <Link

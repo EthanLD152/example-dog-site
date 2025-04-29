@@ -25,8 +25,9 @@ export async function submitContactForm(formData: ContactFormData) {
   }
 }
 
+// Either use the data parameter or remove the function if not needed
 export async function sendEmail(data: FormData) {
-  // Implementation or remove if not needed
-  console.log('Processing email with data:', data);
+  const formEntries = Object.fromEntries(data.entries());
+  console.log('Processing email with data:', formEntries);
   // Add your email sending logic here
 } 
