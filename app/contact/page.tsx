@@ -92,7 +92,7 @@ const ContactPage = () => {
                     <h3 className="font-semibold text-gray-900">Phone</h3>
                     <p className="text-gray-600">(602) DOGGIE</p>
                     <a
-                      href="tel:+1(602) 265-3198"
+                      href="tel:+1(000) 000-0000"
                       className="inline-block mt-2 px-4 py-2 bg-amber-600 text-white rounded-lg hover:bg-amber-700 transition-colors"
                     >
                       Call Now

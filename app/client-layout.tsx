@@ -57,16 +57,32 @@ export default function ClientLayout({
           {/* Mobile menu */}
           <div className={`${mobileMenuOpen ? 'block' : 'hidden'} md:hidden`}>
             <div className="px-2 pt-2 pb-3 space-y-1">
-              <Link href="/" className="block px-3 py-2 rounded-md text-base font-medium text-gray-900 hover:text-amber-600 hover:bg-gray-50">
+              <Link 
+                href="/" 
+                onClick={() => setMobileMenuOpen(false)} 
+                className="block px-3 py-2 rounded-md text-base font-medium text-gray-900 hover:text-amber-600 hover:bg-gray-50"
+              >
                 Home
               </Link>
-              <Link href="/services" className="block px-3 py-2 rounded-md text-base font-medium text-gray-900 hover:text-amber-600 hover:bg-gray-50">
+              <Link 
+                href="/services" 
+                onClick={() => setMobileMenuOpen(false)} 
+                className="block px-3 py-2 rounded-md text-base font-medium text-gray-900 hover:text-amber-600 hover:bg-gray-50"
+              >
                 Services
               </Link>
-              <Link href="/schedule" className="block px-3 py-2 rounded-md text-base font-medium text-gray-900 hover:text-amber-600 hover:bg-gray-50">
+              <Link 
+                href="/schedule" 
+                onClick={() => setMobileMenuOpen(false)} 
+                className="block px-3 py-2 rounded-md text-base font-medium text-gray-900 hover:text-amber-600 hover:bg-gray-50"
+              >
                 Book Now
               </Link>
-              <Link href="/contact" className="block px-3 py-2 rounded-md text-base font-medium text-gray-900 hover:text-amber-600 hover:bg-gray-50">
+              <Link 
+                href="/contact" 
+                onClick={() => setMobileMenuOpen(false)} 
+                className="block px-3 py-2 rounded-md text-base font-medium text-gray-900 hover:text-amber-600 hover:bg-gray-50"
+              >
                 Contact
               </Link>
             </div>
