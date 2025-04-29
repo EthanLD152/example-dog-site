@@ -9,13 +9,15 @@ interface ContactFormData {
 
 export async function submitContactForm(formData: ContactFormData) {
   try {
-    // Here you would typically:
-    // 1. Validate the data
-    // 2. Send an email
-    // 3. Store in database if needed
-    // 4. Send confirmation email
+    // Use formData in the function
+    console.log('Processing form submission:', {
+      name: formData.name,
+      email: formData.email,
+      subject: formData.subject,
+      message: formData.message
+    });
     
-    // For now, we'll just simulate a delay
+    // Simulate delay
     await new Promise(resolve => setTimeout(resolve, 1000));
     
     return { success: true, message: 'Message sent successfully!' };
