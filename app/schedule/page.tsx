@@ -135,7 +135,7 @@ const SchedulePage = () => {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div>
                   <label className="block text-gray-700 font-medium mb-2">
-                    Pet's Name
+                    Pet&apos;s Name
                   </label>
                   <input
                     type="text"
@@ -143,7 +143,7 @@ const SchedulePage = () => {
                     value={formData.petName}
                     onChange={handleInputChange}
                     className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-amber-500 focus:border-transparent bg-white text-gray-900"
-                    placeholder="Enter pet's name"
+                    placeholder="Enter pet&apos;s name"
                   />
                 </div>
 

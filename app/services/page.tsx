@@ -70,7 +70,7 @@ const ServicesPage = () => {
               </motion.h1>
             </div>
             <p className="text-xl md:text-2xl max-w-2xl mx-auto text-amber-100 leading-relaxed mb-16">
-              Comprehensive pet care services tailored to meet your furry friend's needs
+              Comprehensive pet care services tailored to meet your furry friend&apos;s needs
             </p>
             <div className="absolute -bottom-12 left-1/2 transform -translate-x-1/2">
               <svg className="w-12 h-12 text-white/20 animate-bounce" fill="currentColor" viewBox="0 0 20 20">

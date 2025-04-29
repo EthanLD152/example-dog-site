@@ -1,19 +1,10 @@
 'use client';
 
-import { useState } from 'react';
 import { motion } from 'framer-motion';
 import Link from 'next/link';
 import Image from 'next/image';
 
 const LandingPage = () => {
-  const tabs = [
-    { id: '/', label: 'Home' },
-    { id: '/services', label: 'Services' },
-    { id: '/schedule', label: 'Book Now' },
-    { id: '/about', label: 'About Us' },
-    { id: '/contact', label: 'Contact' }
-  ];
-
   return (
     <div className="min-h-screen bg-gradient-to-b from-amber-50 to-white">
       {/* Navigation */}
@@ -62,7 +53,7 @@ const LandingPage = () => {
               </h1>
               <p className="mt-3 max-w-md mx-auto text-base text-gray-100 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
                 Where your furry friend gets the royal treatment they deserve. 
-                Professional boarding, daycare, and grooming services tailored for your pet's comfort.
+                Professional boarding, daycare, and grooming services tailored for your pet&apos;s health.
               </p>
 
               <div className="mt-12 max-w-md mx-auto sm:flex sm:justify-center">

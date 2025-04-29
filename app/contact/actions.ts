@@ -23,4 +23,10 @@ export async function submitContactForm(formData: ContactFormData) {
     console.error('Error submitting form:', error);
     return { success: false, message: 'Failed to send message. Please try again.' };
   }
+}
+
+export async function sendEmail(data: FormData) {
+  // Implementation or remove if not needed
+  console.log('Processing email with data:', data);
+  // Add your email sending logic here
 } 
